@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    "navHead navHead navHead"
+    "nav body body"
+    "... body body";
+}
+/* 
+.sub-head {
+  background-color: var(--primary-bg);
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  display: inline;
+}
+
+.nav-sub-head {
+  background-color: var(--primary-light-color);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: inline;
+} */
