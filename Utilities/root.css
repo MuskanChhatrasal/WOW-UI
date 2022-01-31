@@ -15,17 +15,17 @@
   --text-light: #777;
   --text-dark: #000;
 
-  --success-bg: #e8fcf1;
-  --success-text: #005525;
+  --success-bg: #00b377;
+  --success-text: #ffffff;
 
-  --info-bg: #e6f7ff;
-  --info-text: #44abcb;
+  --info-bg: #325bfe;
+  --info-text: #ffffff;
 
-  --warning-bg: #fefbe6;
-  --warning-text: hsl(40, 100%, 50%);
+  --warning-bg: #feab00;
+  --warning-text: #ffffff;
 
-  --error-bg: #fef2f1;
-  --error-text: #ff0000;
+  --error-bg: #fa3246;
+  --error-text: #ffffff;
 
   --btn-hover: #ac242c;
 }

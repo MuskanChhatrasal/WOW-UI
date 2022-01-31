@@ -17,17 +17,16 @@ body {
     "nav body body"
     "... body body";
 }
-/* 
+
 .sub-head {
-  background-color: var(--primary-bg);
+  /* background-color: var(--primary-bg); */
   padding: 0.3rem;
   border-radius: 0.2rem;
   display: inline;
 }
 
 .nav-sub-head {
-  background-color: var(--primary-light-color);
   padding: 0.5rem;
   border-radius: 0.5rem;
   display: inline;
-} */
+}
