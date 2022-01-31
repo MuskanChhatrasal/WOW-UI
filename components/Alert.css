@@ -99,8 +99,16 @@
   background-color: var(--btn-hover);
 }
 
+.alert-icons {
+  margin-right: 0.7rem;
+  margin-left: 0.2rem;
+  font-size: 24px;
+}
+
 .alert-icon {
   margin-right: 0.7rem;
   margin-left: 0.2rem;
   font-size: 24px;
+  position: relative;
+  top: 8px;
 }
