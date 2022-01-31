@@ -4,8 +4,11 @@
 @import "./Utilities/global.css";
 @import "./Utilities/margins.css";
 @import "./Utilities/paddings.css";
-@import "./Utilities//root.css";
-@import "./Utilities//utilities.css";
+@import "./Utilities/root.css";
+@import "./Utilities/utilities.css";
 
 /* Layout */
 @import "./Layouts/navbar.css";
+
+/* Components */
+@import "./components/Avatar.css";
