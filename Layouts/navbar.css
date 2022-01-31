@@ -3,8 +3,8 @@
 .logo {
   color: var(--primary-color);
   margin-left: 50px;
-  font-size: 45px;
-  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-family: "Nunito", sans-serif;
 }
 .logo-o {
   color: var(--primary-dark-color);
@@ -17,13 +17,33 @@
   position: relative;
   display: flex;
   top: 0;
-  padding: 1rem;
+  padding: 0.25rem;
   z-index: 1;
   color: var(--primary-color);
-  font-weight: bold;
+  font-weight: 900;
   background-color: var(--primary-bg);
   box-shadow: 0 0 8px var(--medium-blue-gray);
 }
+
+.nav-btn {
+  margin-left: auto;
+  margin-right: 15px;
+  border: 2px solid black;
+  color: var(--primary-dark-color);
+  background-color: var(--primary-bg);
+  padding: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 18px;
+  border-radius: 10px;
+  font-family: "Nunito";
+  cursor: pointer;
+}
+
+/* .nav-btn:hover {
+  background-color: var(--primary-light-color);
+  color: var(--primary-dark-color);
+} */
 
 .nav-text {
   position: relative;
