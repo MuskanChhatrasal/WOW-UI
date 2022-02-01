@@ -1,0 +1,80 @@
+.title {
+  color: var(--primary-color);
+}
+
+.badge {
+  position: relative;
+}
+.badge > div {
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  border: 2px solid var(--text-white);
+}
+.badge .online {
+  background-color: var(--success-bg);
+}
+.badge .busy {
+  background-color: var(--error-bg);
+}
+.badge .offline {
+  background-color: var(--text-gray-400);
+}
+.badge .away {
+  background-color: var(--warning-bg);
+}
+.badge .sharing {
+  background-color: var(--error-bg);
+}
+.badge .sharing::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 6px;
+  top: 50%;
+  left: 50%;
+  margin-top: -1px;
+  margin-left: -3px;
+  border-radius: 10px;
+  background-color: var(--COLOR-LIGHT);
+}
+
+.badge-container {
+  position: relative;
+  width: fit-content;
+  padding: 0.5rem;
+}
+
+.badge-text {
+  padding: 0.3rem 0.2rem;
+}
+
+.badge-on-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-white);
+  background-color: var(--primary-color);
+  min-height: 1.3em;
+  min-width: 1.3em;
+  font-weight: 400;
+}
+
+.badge-on-text {
+  top: -0.2em;
+  right: -0.7em;
+  border-radius: 50%;
+}
+
+.badge-on-icon {
+  font-size: 0.8em;
+  top: 0.2em;
+  right: 1em;
+  padding: 0.2em 0.3em;
+  border-radius: 20px;
+}
