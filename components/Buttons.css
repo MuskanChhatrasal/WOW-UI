@@ -87,3 +87,17 @@
   color: var(--error-bg);
   border: 1px solid var(--error-bg);
 }
+
+/* Icon Button */
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--primary-dark-color);
+}
+.btn-icon:hover {
+  background-color: var(--btn-hover);
+}
+.btn-icon svg {
+  margin-right: 1rem;
+}
