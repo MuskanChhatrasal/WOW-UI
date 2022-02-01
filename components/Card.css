@@ -1,0 +1,18 @@
+.card {
+  padding: 1rem;
+  width: 300px;
+  border-radius: 0.5rem;
+  background-color: var(--text-lighter);
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.card-title {
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.card-description {
+  color: var(--text-gray-400);
+}
