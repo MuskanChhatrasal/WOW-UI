@@ -22,3 +22,68 @@
   padding: 0.1rem 3.3rem 0.1rem 0.4rem;
   color: var(--text-white);
 }
+
+.button {
+  min-width: 120px;
+  padding: 0.8rem 1rem;
+  margin: 8px;
+  font-weight: 600;
+  color: var(--text-white);
+  border-radius: 5px;
+  border: transparent;
+  cursor: pointer;
+  background-color: var(--primary-color);
+}
+.button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+/* || Different Button Colors */
+.btn-primary {
+  background-color: var(--primary-dark-color);
+}
+.btn-secondary {
+  background-color: var(--info-bg);
+}
+.btn-success {
+  background-color: var(--success-bg);
+}
+.btn-warning {
+  background-color: var(--warning-bg);
+}
+.btn-error {
+  background-color: var(--error-bg);
+}
+
+/* Outline Button */
+.outline {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.outline-primary {
+  background-color: transparent;
+  color: var(--primary-dark-color);
+  border: 1px solid var(--primary-dark-color);
+}
+.outline-secondary {
+  background-color: transparent;
+  color: var(--info-bg);
+  border: 1px solid var(--info-bg);
+}
+.outline-warning {
+  background-color: transparent;
+  color: var(--warning-bg);
+  border: 1px solid var(--warning-bg);
+}
+.outline-success {
+  background-color: transparent;
+  color: var(--success-bg);
+  border: 1px solid var(--success-bg);
+}
+.outline-error {
+  background-color: transparent;
+  color: var(--error-bg);
+  border: 1px solid var(--error-bg);
+}
