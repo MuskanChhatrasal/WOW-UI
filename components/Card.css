@@ -129,6 +129,12 @@
 }
 .card-overlay-text {
   word-spacing: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   line-height: 2.5rem;
+}
+
+.card-btn {
+  position: relative;
+  margin-top: 8rem;
+  margin-left: 1px;
 }
