@@ -12,34 +12,34 @@
   font-size: 0.9rem;
   font-weight: 200;
   border-radius: 0.5em;
-  border: 1px solid var(--COLOR-GRAY-200);
+  border: 1px solid var(--color-gray-200);
 }
 .input:focus {
-  border: 1px solid var(--COLOR-PRIMARY);
+  border: 1px solid var(--primary-dark-color);
 }
 .input::placeholder {
-  color: var(--COLOR-GRAY-100);
+  color: var(--text-gray-100);
 }
 
 .input-error {
-  border: 1px solid var(--COLOR-ERROR);
+  border: 1px solid var(--error-bg);
 }
 .error-msg {
-  color: var(--COLOR-ERROR);
+  color: var(--error-bg);
 }
 
 .input-warning {
-  border: 1px solid var(--COLOR-WARNING);
+  border: 1px solid var(--warning-bg);
 }
 .warning-msg {
-  color: var(--COLOR-WARNING);
+  color: var(--warning-bg);
 }
 
 .input-success {
-  border: 1px solid var(--COLOR-SUCCESS);
+  border: 1px solid var(--success-bg);
 }
 .success-msg {
-  color: var(--COLOR-SUCCESS);
+  color: var(--success-bg);
 }
 
 .textarea {
