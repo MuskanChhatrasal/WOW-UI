@@ -94,3 +94,17 @@
   top: 0;
   background: transparent;
 }
+
+/* Horizontal Card */
+.card-horiz {
+  display: flex;
+  height: 200px;
+  width: 500px;
+  padding: 0;
+}
+.card-horiz .card-img-cont {
+  min-width: 280px;
+  max-width: 280px;
+  height: 100%;
+  overflow: hidden;
+}
