@@ -2,7 +2,7 @@
   padding: 1rem;
   width: 300px;
   border-radius: 0.5rem;
-  background-color: var(--text-lighter);
+  background-color: var(--medium-blue-gray);
 }
 /* .card:hover {
   transform: scale(1.1);
