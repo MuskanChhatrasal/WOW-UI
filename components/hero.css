@@ -1,0 +1,45 @@
+.hero {
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
+  height: 90vh;
+}
+.hero > div {
+  padding: 1rem;
+  flex: 1 1 50%;
+}
+.title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 65px;
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: -18rem;
+}
+.hero-left .subtitle {
+  color: var(--text-gray-400);
+}
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img-cont {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 0px;
+  left: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .hero {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+}

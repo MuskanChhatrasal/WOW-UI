@@ -27,6 +27,8 @@
   min-width: 120px;
   padding: 0.8rem 1rem;
   margin: 8px;
+  margin-left: -2px;
+  margin-top: 15px;
   font-weight: 600;
   color: var(--text-white);
   border-radius: 5px;
