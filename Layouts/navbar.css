@@ -16,7 +16,7 @@
   color: var(--primary-dark-color);
 }
 .navHead {
-  position: relative;
+  position: sticky;
   display: flex;
   top: 0;
   padding: 0.25rem;

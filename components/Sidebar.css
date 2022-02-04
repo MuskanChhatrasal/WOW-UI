@@ -2,6 +2,7 @@
   top: 6rem;
   height: 80vh;
   width: 280px;
+  left: 30px;
   overflow-y: scroll;
   position: sticky;
   flex-shrink: 0;

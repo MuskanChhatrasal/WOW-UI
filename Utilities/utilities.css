@@ -3,6 +3,7 @@
 .main-container {
   max-width: 66rem;
   margin: auto;
+  margin-left: 6px;
 }
 
 /* containers */
