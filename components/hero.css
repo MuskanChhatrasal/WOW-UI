@@ -18,7 +18,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-left: -18rem;
+  margin-left: -22rem;
 }
 .hero-left .subtitle {
   color: var(--text-gray-400);
