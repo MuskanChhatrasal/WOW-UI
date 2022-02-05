@@ -21,6 +21,8 @@
   margin-left: -22rem;
 }
 .hero-left .subtitle {
+  margin-top: 1rem;
+  width: 90%;
   color: var(--text-gray-400);
 }
 .hero-right {
@@ -41,5 +43,8 @@
   .hero {
     flex-direction: column-reverse;
     height: auto;
+  }
+  .hero-img-cont {
+    margin-top: 2rem;
   }
 }
