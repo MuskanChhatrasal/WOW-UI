@@ -1,0 +1,39 @@
+/** List **/
+.spaced-list-item-group {
+  list-style-type: none;
+}
+
+.spaced-list-item {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.spaced-list-item:hover {
+  background-color: #e5e7eb;
+  cursor: pointer;
+}
+
+/**Stacked List -notification**/
+
+.stacked-list-group {
+  border: 1px solid #d1d5db;
+}
+
+.stacked-item {
+  display: flex;
+  border-bottom: 1px solid #d1d5db;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.text-gray {
+  color: #4b5563;
+}
+
+.font-bold-1 {
+  font-weight: bold;
+}
+
+.font-size-5 {
+  font-size: 0.95rem;
+}
