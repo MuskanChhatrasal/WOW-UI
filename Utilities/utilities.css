@@ -30,6 +30,7 @@
 /* container shadow */
 .cont-shadow {
   box-shadow: 0 5px 20px var(--light-gray);
+  background-color: var(--light-gray);
 }
 
 /* img size */
