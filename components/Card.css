@@ -4,10 +4,10 @@
   border-radius: 0.5rem;
   background-color: var(--medium-blue-gray);
 }
-/* .card:hover {
+.card:hover {
   transform: scale(1.1);
   transition: 0.2s;
-} */
+}
 
 .card-title {
   font-weight: 800;
@@ -101,6 +101,7 @@
   height: 200px;
   width: 500px;
   padding: 0;
+  margin-left: 2rem;
 }
 .card-horiz .card-img-cont {
   min-width: 280px;
@@ -139,4 +140,74 @@
   position: relative;
   margin-top: 8rem;
   margin-left: 1px;
+}
+
+/* .features .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+} */
+
+.speciality .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.speciality .box-container .box {
+  flex: 1 1 30rem;
+  height: 15rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.speciality .box-container .box .image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: -100%;
+  left: 0;
+}
+
+.speciality .box-container .box .content {
+  text-align: center;
+  background: var(--text-white);
+  padding: 2rem;
+}
+
+.speciality .box-container .box .content img {
+  margin-top: -2rem;
+  font-size: 2rem;
+}
+
+.speciality .box-container .box .content h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.speciality .box-container .box .content p {
+  font-size: 1rem;
+  color: var(--text-light);
+  padding: 1rem 0;
+}
+
+.speciality .box-container .box:hover .image {
+  top: 0;
+}
+
+.speciality .box-container .box:hover .content {
+  transform: translateY(100%);
+}
+
+.card-ecomm {
+  width: 340px;
+  height: 240px;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
 }
