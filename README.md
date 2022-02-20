@@ -8,4 +8,4 @@ You can use this library by importing the cdn link in head tag of your html docu
 
 `https://wow-ui02.netlify.app/wow.css`
 
-<!-- ## Live Preview: https://wow-ui06.netlify.app/ -->
+<img src="./assets/first.png">
