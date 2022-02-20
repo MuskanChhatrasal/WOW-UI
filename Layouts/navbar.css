@@ -12,7 +12,6 @@
   color: var(--primary-dark-color);
 }
 .logo-excla {
-  /* font-size: 50px; */
   color: var(--primary-dark-color);
 }
 .navHead {
@@ -41,11 +40,6 @@
   font-family: "Nunito";
   cursor: pointer;
 }
-
-/* .nav-btn:hover {
-  background-color: var(--primary-light-color);
-  color: var(--primary-dark-color);
-} */
 
 .nav-text {
   position: relative;
