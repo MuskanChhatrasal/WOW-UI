@@ -142,12 +142,6 @@
   margin-left: 1px;
 }
 
-/* .features .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
-} */
-
 .speciality .box-container {
   display: flex;
   flex-wrap: wrap;
