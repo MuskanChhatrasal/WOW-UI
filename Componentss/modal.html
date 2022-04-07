@@ -45,7 +45,7 @@
         </div>
         <ul class="list-subtopic">
           <li>
-            <a class="active" href="#">Installation</a>
+            <a href="./installation.html">Installation</a>
           </li>
           <li>
             <a href="./typography.html">Typography</a>
@@ -100,7 +100,7 @@
             <a href="./ratingSlider.html#rating">Rating</a>
           </li>
           <li>
-            <a href="./modal.html">Modal</a>
+            <a class="active" href="./modal.html">Modal</a>
           </li>
         </ul>
       </div>
@@ -108,49 +108,41 @@
     </nav>
     <!-- Sidebar Section End -->
 
-    <!------------------------------------------- Main Section ------------------------------------------>
-
     <section class="main-container main">
-      <div class="pd-1-lr pd-1-bot">
+      <div id="cards" class="pd-1-lr pd-1-bot">
         <h1 class="mg-point8-tb title sub-head hover-underline-animation">
-          Installation
-        </h1>
-        <p>
-          It is a graphical representation of a user or the user's character or
-          persona. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Laboriosam, repellendus?
-        </p>
-
-        <h1 class="mg-2-top mg-point6-bot title-xxl hover-underline-animation">
-          HTML Import
+          Modal
         </h1>
         <div class="mg-1-bot">
-          This library can be imported using the cdn link in head tag of your
-          html document.
+          A Modal is a graphical representation of a user or the user's
+          character or persona. Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Laboriosam, repellendus?
         </div>
 
-        <!-- Code Snippet -->
-        <iframe
-          src="https://www.thiscodeworks.com/embed/61fe13a433c09d0015b44e33"
-          style="width: 100%; height: 164px"
-          frameborder="0"
-        ></iframe>
-
-        <h2 class="mg-2-top mg-point6-bot title-xxl hover-underline-animation">
-          CSS Import
-        </h2>
-        <div class="mg-1-bot">
-          This library can be installed by importing the css inside your root
-          css file.
+        <div class="cont-shadow component-container pd-1-all mg-1-bot">
+          <button class="button" id="openModal">Open Modal</button>
+          <div class="modal-cont" id="myModal">
+            <div class="modal">
+              <button class="btn btn-icon btn-close">
+                <i class="bi bi-x"></i>
+              </button>
+              <h3 class="modal-title">Modal Title</h3>
+              <p class="txt-gray-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                dolorem atque minus eveniet, quaerat necessitatibus eum
+                consectetur, rem quam quas sint. Est sint perspiciatis
+                temporibus nihil, id minus impedit nobis.
+              </p>
+              <div class="modal-footer">
+                <button class="btn outline">Close</button>
+                <button class="btn btn-primary">Accept</button>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <!-- Code Snippet -->
-        <iframe
-          src="https://www.thiscodeworks.com/embed/61fe156c33c09d0015b44e38"
-          style="width: 100%; height: 125px"
-          frameborder="0"
-        ></iframe>
       </div>
     </section>
+
+    <script src="../modal.js"></script>
   </body>
 </html>
