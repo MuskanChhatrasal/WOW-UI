@@ -85,7 +85,7 @@
             <a href="./list.html">List</a>
           </li>
           <li>
-            <a class="active" href="./text_utilities.html">Text Utilities</a>
+            <a href="./text_utilities.html">Text Utilities</a>
           </li>
           <li>
             <a href="./snackbar.html">Snackbar</a>
@@ -100,7 +100,7 @@
             <a href="./ratingSlider.html#rating">Rating</a>
           </li>
           <li>
-            <a href="./modal.html">Modal</a>
+            <a class="active" href="./modal.html">Modal</a>
           </li>
           <li>
             <a href="./grid.html">Grid</a>
@@ -111,88 +111,47 @@
     </nav>
     <!-- Sidebar Section End -->
 
-    <!------------------------------------------- Main Section ------------------------------------------>
-
     <section class="main-container main">
-      <div id="avatar" class="pd-1-lr pd-1-bot">
+      <div id="cards" class="pd-1-lr pd-1-bot">
         <h1 class="mg-point8-tb title sub-head hover-underline-animation">
-          Text Utilities
-        </h1>
-        <p>
-          An avatar is a graphical representation of a user or the user's
-          character or persona. Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Laboriosam, repellendus?
-        </p>
-
-        <!-- Alignment -->
-        <h1 class="mg-2-top mg-point6-bot title-lg hover-underline-animation">
-          Alignment
+          Modal
         </h1>
         <div class="mg-1-bot">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
-          deserunt quos odio!
+          A Modal is a graphical representation of a user or the user's
+          character or persona. Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Laboriosam, repellendus?
         </div>
 
-        <div class="center-div pd-1-all mg-1-bot cont-shadow">
-          <p class="text-start mg-1-bot">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <p class="text-center mg-1-bot">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <p class="text-end mg-1-bot">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-        </div>
-
-        <!-- Code Snippet -->
-        <iframe
-          src="https://www.thiscodeworks.com/embed/61ffe2ba4dd44f0015f3cc3f"
-          style="width: 100%; height: 125px"
-          frameborder="0"
-        ></iframe>
-
-        <!-- font size -->
-        <h2 class="mg-2-top mg-point6-bot title-lg hover-underline-animation">
-          Font Size
-        </h2>
-        <div class="component-container pd-1-all mg-1-bot cont-shadow">
-          <div class="center-div">
-            <p class="font-size-1 mg-1-bot">Lorem ipsum dolor sit amet</p>
-            <p class="font-size-2 mg-1-bot">Lorem ipsum dolor sit amet</p>
-            <p class="font-size-3 mg-1-bot">Lorem ipsum dolor sit amet</p>
-            <p class="font-size-4 mg-1-bot">Lorem ipsum dolor sit amet</p>
-            <p class="font-size-5 mg-1-bot">Lorem ipsum dolor sit amet</p>
+        <div class="cont-shadow component-container pd-1-all mg-1-bot">
+          <button class="button" id="openModal">Open Modal</button>
+          <div class="modal-cont" id="myModal">
+            <div class="modal">
+              <button class="btn btn-icon btn-close">
+                <i class="bi bi-x"></i>
+              </button>
+              <h3 class="modal-title">Modal Title</h3>
+              <p class="txt-gray-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                dolorem atque minus eveniet, quaerat necessitatibus eum
+                consectetur, rem quam quas sint. Est sint perspiciatis
+                temporibus nihil, id minus impedit nobis.
+              </p>
+              <div class="modal-footer">
+                <button class="btn outline">Close</button>
+                <button class="btn btn-primary">Accept</button>
+              </div>
+            </div>
           </div>
         </div>
 
-        <!-- Code Snippet -->
         <iframe
-          src="https://www.thiscodeworks.com/embed/61ffe3c94dd44f0015f3cc42"
-          style="width: 100%; height: 151px"
-          frameborder="0"
-        ></iframe>
-
-        <!-- Gray Text -->
-
-        <h2 class="mg-2-top mg-point6-bot title-lg hover-underline-animation">
-          Gray Text
-        </h2>
-        <div class="component-container pd-1-all mg-1-bot cont-shadow">
-          <div class="center-div">
-            <p class="text-gray font-size-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
-
-        <!-- Code Snippet -->
-        <iframe
-          src="https://www.thiscodeworks.com/embed/61ffe5844dd44f0015f3cc47"
-          style="width: 100%; height: 99px"
+          src="https://www.thiscodeworks.com/embed/624e5034aa32fe001510a1ec"
+          style="width: 100%; height: 333px"
           frameborder="0"
         ></iframe>
       </div>
     </section>
+
+    <script src="../modal.js"></script>
   </body>
 </html>
